@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="/images/favicon (2).ico" type="image/x-icon">
+    <title>Triangle's Quiz</title>
+  </head>
+  <body>
+    <nav class="navigation"> 
+      <a class=" container-for-nav" href="/index.html">Is Triangle?</a> 
+      <a class=" container-for-nav" href="/hypotenuse.html"> Calculate Hypotenuse</a>
+        <a class=" container-for-nav" href="/area.html">Calculate Area</a>
+        <a class="inline container-for-nav" href="/quiz.html">Play Quiz</a>
+    </nav>
+    <h1>Triangle's Fun</h1>
+    <form class="question-form">
+      <div class="question-container">
+        <p>1) The angle of 89 degree is ______________ angle .</p>
+        <label>
+          <input type="radio" name="question1" value="acute" />acute
+        </label>
+        <label>
+          <input type="radio" name="question1" value="right" />right
+        </label>
+        <label>
+          <input type="radio" name="question1" value="obtuse" />obtuse
+        </label>
+      </div>
+
+      <div class="question-container">
+        <p>2) A Triangle having three sides equal is .</p>
+        <label>
+          <input type="radio" name="question2" value="scalene" />scalene
+        </label>
+        <label>
+          <input type="radio" name="question2" value="equilateral" />equilateral
+        </label>
+        <label>
+          <input type="radio" name="question2" value="isosceles" />isosceles
+        </label>
+      </div>
+
+
+      <div class="question-container">
+        <p>3) What is the name of the segment that joins the midpoints of the sides of a triangle?</p>
+        <label>
+          <input type="radio" name="question3" value="Vertex" />Vertex
+        </label>
+        <label>
+          <input type="radio" name="question3" value="Centroid" />Centroid
+        </label>
+        <label>
+          <input type="radio" name="question3" value="Midsegment" />Midsegment
+        </label>
+      </div>
+
+
+      
+      <div class="question-container">
+        <p>4) Which center is equidistant from the vertices of a triangle?</p>
+        <label>
+          <input type="radio" name="question4" value="Circumcenter" />Circumcenter
+        </label>
+        <label>
+          <input type="radio" name="question4" value="Centroid" />Centroid
+        </label>
+        <label>
+          <input type="radio" name="question4" value="Incenter" />Incenter
+        </label>
+      </div>
+
+      <div class="question-container">
+        <p>5) What is the name of a ray that divides an angle into two equal angles?</p>
+        <label>
+          <input type="radio" name="question5" value="Medianr" />Median
+        </label>
+        <label>
+          <input type="radio" name="question5" value="Perdicular Bisector" />Perdicular Bisector
+        </label>
+        <label>
+          <input type="radio" name="question5" value="Angle Bisector" />Angle Bisector
+        </label>
+      </div>
+
+
+      <div class="question-container">
+        <p>6) What is it called when three or more lines intersect at the same point?</p>
+        <label>
+          <input type="radio" name="question6" value="Concurrent" />Concurrent
+        </label>
+        <label>
+          <input type="radio" name="question6" value="Equiangular" />Equiangular
+        </label>
+        <label>
+          <input type="radio" name="question6" value="Equilateral" />Equilateral
+        </label>
+      </div>
+
+
+      <div class="question-container">
+        <p>7) What is the point of concurrency of the medians?</p>
+        <label>
+          <input type="radio" name="question7" value="Circumcenter" />Circumcenter
+        </label>
+        <label>
+          <input type="radio" name="question7" value="Centroid" />Centroid
+        </label>
+        <label>
+          <input type="radio" name="question7" value="Incenter" />Incenter
+        </label>
+      </div>
+
+
+      <div class="question-container">
+        <p>8) What is the name of the segment drawn from the vertex of a triangle, perpendicular to the opposite side?</p>
+        <label>
+          <input type="radio" name="question8" value="Median" />Median
+        </label>
+        <label>
+          <input type="radio" name="question8" value="Altitude" />Altitude
+        </label>
+        <label>
+          <input type="radio" name="question8" value="Midpoint" />Midpoint
+        </label>
+      </div>
+
+
+
+      <div class="question-container">
+        <p>9) Which ancient Greek philosopher studied triangles?</p>
+        <label>
+          <input type="radio" name="question9" value="Plato" />Plato
+        </label>
+        <label>
+          <input type="radio" name="question9" value="Aristotle" />Aristotle
+        </label>
+        <label>
+          <input type="radio" name="question9" value="Pythagoras" />Pythagoras
+        </label>
+      </div>
+
+
+      <div class="question-container">
+        <p>10) How many angles are in a triangle?</p>
+        <label>
+          <input type="radio" name="question10" value="1" />1
+        </label>
+        <label>
+          <input type="radio" name="question10" value="5" />5
+        </label>
+        <label>
+          <input type="radio" name="question10" value="3" />3
+        </label>
+      </div>
+    </form>
+
+    <button id="submit-btn">Submit answers</button>
+    <div id="output"></div>
+    <script src="/trianglequiz.js"></script>
+  </body>
+</html>

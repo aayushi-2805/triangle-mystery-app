@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Courgette&display=swap");
+:root {
+  --primary-color: rgb(101, 204, 184);
+
+  --seconday-color: rgb(59, 148, 94);
+
+  --tertiary-color: rgb(242, 242, 242);
+
+  --light-color: rgb(87, 186, 152);
+}
+
+.navigation {
+  padding: 2rem;
+  background-color: var(--seconday-color);
+  color: var(--tertiary-color);
+  
+
+  margin: none;
+}
+body {
+  font-family: "Courgette", cursive;
+  background-color: var(--primary-color);
+  text-align: center;
+  position: relative;
+ 
+}
+
+.inline {
+  font-weight: bolder;
+}
+.container-for-nav {
+  padding: 1rem;
+  color: var(--tertiary-color);
+  text-decoration: none;
+  font-stretch: wider;
+  font-size: 1.5rem;
+}
+.input-angles{
+    padding: 0.5rem;
+    background-color: var(--light-color);
+    color: var(--tertiary-color);
+    font-size: 1rem;
+    font-weight: bolder
+}
+
+#check-btn{
+    padding: 1rem;
+    margin: auto;
+    width: 10rem;
+    border-radius: 0.5rem;
+    background-color: var(--light-color);
+    color: var(--tertiary-color);
+    font-weight: bolder;
+    border-color: var(--seconday-color);
+    border-width: thick;
+    font-size: 1rem;
+}
+
+#output{
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+#calculateArea{
+  padding: 1rem;
+  margin: auto;
+  width: 10rem;
+  border-radius: 0.5rem;
+  background-color: var(--light-color);
+  color: var(--tertiary-color);
+  font-weight: bolder;
+  border-color: var(--seconday-color);
+  border-width: thick;
+  font-size: 1rem;
+}
+#submit-btn{
+  padding: 1rem;
+  margin: auto;
+  width: 10rem;
+  border-radius: 0.5rem;
+  background-color: var(--light-color);
+  color: var(--tertiary-color);
+  font-weight: bolder;
+  border-color: var(--seconday-color);
+  border-width: thick;
+  font-size: 1rem;
+}
+.question-container  {
+  text-align: start;
+  font-size: 1.5rem;
+}
